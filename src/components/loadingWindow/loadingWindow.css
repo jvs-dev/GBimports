@@ -1,0 +1,16 @@
+#loadingWindow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    background: linear-gradient(180deg, #1A1A1A 0%, #1A1B1C 63.18%, #1B2127 74.31%, #224667 85.64%, #3198F7 100%);
+}
+#loadingWindow .spinner-border {
+    color: var(--blue);
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+}

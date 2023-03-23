@@ -1,0 +1,25 @@
+#favoritesIcon {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+    transition: 0.5s;
+}
+
+#favoritesIcon:hover {
+    transform: scale(1.1);
+}
+
+#favoritesIcon.active {
+    display: flex;
+    justify-content: end;
+}
+
+#favoritesIcon.active::before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: var(--blue);
+    position: absolute;
+}
