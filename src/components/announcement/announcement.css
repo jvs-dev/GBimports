@@ -1,4 +1,6 @@
 .main__announcement {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
     width: 80vw;
     max-width: 480px;
     aspect-ratio: 1/0.5;

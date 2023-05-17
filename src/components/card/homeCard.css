@@ -5,6 +5,7 @@
     background-color: var(--white);
     border-radius: 25px 15px;
     width: 240px;
+    margin: 20px 5px;
 }
 .card--home.card__div--imgContainer {
     display: flex;

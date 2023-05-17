@@ -1,5 +1,6 @@
 :root {
     --blue: #3198F6;
+    --dark-blue: #002D57;
     --background-blue: #F1F0FF;
     --white: #fff;
     --black: #1a1a1a;
@@ -8,4 +9,5 @@
 body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }

@@ -20,6 +20,12 @@
     <link rel="stylesheet" href="src/components/menuToggle/menuToggle.css">
     <link rel="stylesheet" href="src/components/title/logo.css">
     <link rel="stylesheet" href="src/components/favorites/favorites.css">
+    <link rel="stylesheet" href="src/components/search/search.css">
+    <link rel="stylesheet" href="src/components/search/filter.css">
+    <link rel="stylesheet" href="src/components/announcement/announcement.css">
+    <link rel="stylesheet" href="src/components/category/category.css">
+    <link rel="stylesheet" href="src/components/title/title.css">
+    <link rel="stylesheet" href="src/components/card/homeCard.css">
 </head>
 
 <body>
@@ -33,6 +39,182 @@
                 <ion-icon name="heart-outline" class="active" id="favoritesIcon"></ion-icon>
             </a>
         </header>
+        <article class="main__article--search">
+            <label for="searchInput" class="article--search__label">
+                <ion-icon name="search-sharp" class="article--search__icon"></ion-icon>
+                <input type="search" name="searchInput" id="searchInput" placeholder="Pesquisar">
+            </label>
+            <ion-icon name="options-outline" class="filter__icon"></ion-icon>
+        </article>
+
+        <section class="main__section--slider">
+            <article class="main__announcement">
+                <div class="announcement__div">
+                    <p class="announcement__category">Tênis Masculino</p>
+                    <p class="announcement__name">Nike Air Max 90</p>
+                    <button class="announcement__button">Ver Mais</button>
+                </div>
+                <img class="announcement__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+            </article>
+            <article class="main__announcement">
+                <div class="announcement__div">
+                    <p class="announcement__category">Tênis Masculino</p>
+                    <p class="announcement__name">Nike Air Max 90</p>
+                    <button class="announcement__button">Ver Mais</button>
+                </div>
+                <img class="announcement__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+            </article>
+            <article class="main__announcement">
+                <div class="announcement__div">
+                    <p class="announcement__category">Tênis Masculino</p>
+                    <p class="announcement__name">Nike Air Max 90</p>
+                    <button class="announcement__button">Ver Mais</button>
+                </div>
+                <img class="announcement__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+            </article>
+            <article class="main__announcement">
+                <div class="announcement__div">
+                    <p class="announcement__category">Tênis Masculino</p>
+                    <p class="announcement__name">Nike Air Max 90</p>
+                    <button class="announcement__button">Ver Mais</button>
+                </div>
+                <img class="announcement__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+            </article>
+        </section>
+
+        <section class="main__section--slider" id="categorySection">
+            <article class="main__category category--card active">
+                <div class="category--card category__imgContainer">
+                    <img class="category--card category__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+                </div>
+                <p class="category--card category__p">Chuteira</p>
+            </article>
+            <article class="main__category category--card">
+                <div class="category--card category__imgContainer">
+                    <img class="category--card category__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+                </div>
+                <p class="category--card category__p">Chuteira</p>
+            </article>
+            <article class="main__category category--card">
+                <div class="category--card category__imgContainer">
+                    <img class="category--card category__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+                </div>
+                <p class="category--card category__p">Chuteira</p>
+            </article>
+            <article class="main__category category--card">
+                <div class="category--card category__imgContainer">
+                    <img class="category--card category__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+                </div>
+                <p class="category--card category__p">Chuteira</p>
+            </article>
+            <article class="main__category category--card">
+                <div class="category--card category__imgContainer">
+                    <img class="category--card category__img" src="assets/img/images__2_-removebg-preview.png" alt="">
+                </div>
+                <p class="category--card category__p">Chuteira</p>
+            </article>
+        </section>
+        <div class="justify-between">
+            <h2 class="main__title">Novos Masculinos</h2>
+            <a href="#" class="see-more">Ver mais</a>
+        </div>
+        <section class="main__section--wrap">
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+        </section>
+
+        <div class="justify-between">
+            <h2 class="main__title">Novos Femininos</h2>
+            <a href="#" class="see-more">Ver mais</a>
+        </div>
+        <section class="main__section--wrap">
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+            <article class="main__card card--home">
+                <div class="card--home card__div--imgContainer">
+                    <img class="card--home card__img" src="assets/img/test-img.png" alt="">
+                </div>
+                <p class="card--home card__category">Tênis Masculino</p>
+                <p class="card--home card__name">Air Max Pre-Day</p>
+                <div class="card--home card__div">
+                    <p class="card--home card__price">$137.50</p>
+                    <button class="card--home card__button" type="button"><ion-icon name="heart-outline"></ion-icon></button>
+                </div>
+            </article>
+        </section>
     </main>
 
 
@@ -42,6 +224,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="src/components/menuToggle/menuToggle.js"></script>
+    <script src="src/components/search/search.js"></script>
 </body>
 
 </html>
